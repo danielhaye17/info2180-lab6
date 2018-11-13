@@ -18,7 +18,7 @@
     font-size: 40px;
     background-color: rgba(119, 27, 119, 0.863);
     color:white ;
-    grid-area: 1 / 2/ 3 / 10;
+    grid-area: 1 / 2/ 2 / 10;
     border-bottom: 2%;
     
 }
@@ -32,7 +32,7 @@ body{
 
 
 .main{
-    grid-area: 3 / 2/ 8 / 10;
+    grid-area: 2 / 2/ 8 / 10;
     padding: 20px;
     background-color:rgba(211, 211, 211, 0.685) ;
     border: 1px solid rgba(211, 211, 211, 0.685);
