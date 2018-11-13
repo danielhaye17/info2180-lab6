@@ -16,22 +16,16 @@
             <p>Lookup the definition of word 
                 <em>(eg. ajax, definition, bar, html, php, javascript or css)</em></p>
             <br>
-            <form>
-                <input type="search" name="text" placeholder="Eg. ajax" id="searchBar" >
-                <button type="Button" onclick="Search()" id="submission">Search</button>
+            <form action="#" method="GET" style="margin-left:10px;">
+                <input type="search" name="q" placeholder="Enter word here" id="searchBar" >
+                <input type="button" value ="Search" id="submission">
             </form>
             <br>
             <div id= "border"></div>
             <br>
-            <p><strong>Result</strong></p>
-
-
+            <div id="result"></div>
 
         </div>
-
-
-
-
     </div>
 </body>
 </html>

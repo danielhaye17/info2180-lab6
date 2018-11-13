@@ -8,7 +8,7 @@
     position: relative;
     margin:20px;
     grid-gap: 5px;
-    grid-template: repeat(8, 1fr) / repeat(5, 1fr); 
+    grid-template: repeat(8, 1fr) / repeat(10, 1fr); 
   }
 
 .titleHeading{
@@ -18,7 +18,7 @@
     font-size: 40px;
     background-color: rgba(119, 27, 119, 0.863);
     color:white ;
-    grid-area: 1 / 2/ 3 / 5;
+    grid-area: 1 / 2/ 3 / 10;
     border-bottom: 2%;
     
 }
@@ -32,7 +32,7 @@ body{
 
 
 .main{
-    grid-area: 3 / 2/ 8 / 5;
+    grid-area: 3 / 2/ 8 / 10;
     padding: 20px;
     background-color:rgba(211, 211, 211, 0.685) ;
     border: 1px solid rgba(211, 211, 211, 0.685);
